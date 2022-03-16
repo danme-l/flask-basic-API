@@ -1,5 +1,6 @@
 # base image
 FROM ubuntu:18.04
+
 # sets up the working directory in the container
 WORKDIR /app
 RUN apt-get update -y
